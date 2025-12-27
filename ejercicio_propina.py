@@ -1,7 +1,7 @@
 # ejercicio_propina.py
 # Este programa calcula cuánto dejar de propina en un restaurante
 
-print("--- Calculadora de Propinas ---")
+print("--- Calculadora de Propinas para conocimiento basico ---")
 
 # 1. Pedir el total de la cuenta
 cuenta = float(input("¿Cuánto fue el total de la cuenta?: $"))
