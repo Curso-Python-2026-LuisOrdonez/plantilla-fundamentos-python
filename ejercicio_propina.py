@@ -20,3 +20,4 @@ print(f"Propina ({porcentaje}%): ${propina}")
 print(f"TOTAL A PAGAR: ${total_a_pagar}")
 # Prueba de conexion LTI Moodle.
 # Intento de sincronización final.
+# Intento de sincronización final.
