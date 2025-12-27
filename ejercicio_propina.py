@@ -18,3 +18,4 @@ print(f"\nResumen:")
 print(f"Cuenta inicial: ${cuenta}")
 print(f"Propina ({porcentaje}%): ${propina}")
 print(f"TOTAL A PAGAR: ${total_a_pagar}")
+# Prueba de conexion LTI Moodle.
