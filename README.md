@@ -1,4 +1,4 @@
-# 🐍 Unidad 1: Fundamentos de Python
+# 🐍 Unidad 1: Fundamentos de Python.
 
 ¡Bienvenido a tu primer repositorio de prácticas! El objetivo de esta unidad es dominar la sintaxis básica de Python aplicando lo aprendido sobre **variables, operadores y toma de decisiones**.
 
