@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        // --- 1. CONFIGURACIÓN PARA PYTHON (Arreglada) ---
+        {
+            "name": "🐍 Python: Archivo Actual",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal", 
+            "justMyCode": true
+        },
+        // --- 2. CONFIGURACIÓN PARA C++ (Conectada a tu tasks.json) ---
+        {
+            "name": "🚀 C++: Compilar y Depurar (MinGW)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            // ESTA LINEA DE ABAJO CONECTA CON TU TASKS.JSON:
+            "preLaunchTask": "C/C++: g++.exe build active file"
+        }
+    ]
+}
